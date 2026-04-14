@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emily's Fine Dining | Private Chef, South of England</title>
+  <meta name="description" content="Emily's Fine Dining - Private chef for a fine dining experience in the comfort of your own home. British, French and Mediterranean cuisine. Based in the South of England.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav__logo">Emily's Fine Dining</a>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#menus">Menus</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="mailto:emilystabb@gmail.com?subject=Private%20Chef%20Enquiry" class="nav__book">Book Emily</a></li>
+      <li>
+        <a href="https://www.instagram.com/emilysfinedining/" target="_blank" rel="noopener" class="nav__instagram" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <circle cx="12" cy="12" r="5"/>
+            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero__collage">
+      <img src="/images/gallery/salmon-canapes.png" alt="" loading="eager">
+      <img src="/images/gallery/asparagus-hollandaise.png" alt="" loading="eager">
+      <img src="/images/gallery/panna-cotta-martini.png" alt="" loading="eager">
+      <img src="/images/gallery/beef-tenderloin.png" alt="" loading="eager">
+      <img src="/images/gallery/berry-tart.png" alt="" loading="eager">
+      <img src="/images/gallery/mousse-spoons.png" alt="" loading="eager">
+      <img src="/images/gallery/charcuterie-boards.png" alt="" loading="eager">
+      <img src="/images/gallery/panna-cotta-vintage.png" alt="" loading="eager">
+      <img src="/images/gallery/steak-mushroom.png" alt="" loading="eager">
+      <img src="/images/gallery/pesto-canapes.png" alt="" loading="eager">
+      <img src="/images/gallery/salmon-watercress.png" alt="" loading="eager">
+      <img src="/images/gallery/pavlova-berries.png" alt="" loading="eager">
+      <img src="/images/gallery/antipasti-spread.png" alt="" loading="eager">
+      <img src="/images/gallery/asparagus-pomegranate.png" alt="" loading="eager">
+      <img src="/images/gallery/chocolate-berry-plates.png" alt="" loading="eager">
+      <img src="/images/gallery/yorkshire-canapes.png" alt="" loading="eager">
+      <img src="/images/gallery/table-setting.png" alt="" loading="eager">
+      <img src="/images/gallery/halloumi-salad.png" alt="" loading="eager">
+      <img src="/images/gallery/cauliflower-salad.png" alt="" loading="eager">
+      <img src="/images/gallery/chocolate-custard.png" alt="" loading="eager">
+      <img src="/images/gallery/canapes-kitchen.png" alt="" loading="eager">
+      <img src="/images/about/emily-plating.png" alt="" loading="eager">
+      <img src="/images/about/team-kitchen.png" alt="" loading="eager">
+      <img src="/images/about/emily-team-1.png" alt="" loading="eager">
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <div class="hero__line hero__line--decorative">
+        <span class="hero__dash"></span>
+        <span class="hero__star">&#10043;</span>
+        <span class="hero__dash"></span>
+      </div>
+      <h1 class="hero__title">
+        <span class="hero__word">Emily's</span>
+        <span class="hero__word">Fine Dining</span>
+      </h1>
+      <p class="hero__tagline">Private Chef for a Fine Dining Experience<br>in the Comfort of Your Own Home</p>
+      <div class="hero__line hero__line--decorative">
+        <span class="hero__dash"></span>
+        <span class="hero__star">&#10043;</span>
+        <span class="hero__dash"></span>
+      </div>
+      <p class="hero__location">Based in the South of England</p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--hero">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          Book Emily for Your Event
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Scroll down">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6,9 12,15 18,9"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="about__container">
+      <div class="about__image-col reveal-left">
+        <div class="about__image-wrapper">
+          <img src="/images/about/emily-plating.png" alt="Chef Emily plating a dish" loading="lazy">
+        </div>
+      </div>
+      <div class="about__text-col reveal-right">
+        <span class="section-label">The Chef</span>
+        <h2 class="section-title">A Passion for<br>Exceptional Food</h2>
+        <div class="about__body">
+          <p>Emily is an accomplished private chef celebrated for her authentic, healthful, and exquisitely crafted fine dining. Drawing upon the rich traditions of British, French, and Mediterranean cuisines, she brings a wealth of expertise and artistry to every plate.</p>
+          <p>Trained at Eastbourne College of Food and Fashion and holder of an advanced Cordon Bleu qualification, Emily honed her craft as sous chef alongside a Michelin-starred chef at the renowned Chalets de Philippe in Chamonix. Her career has taken her across the globe, cooking for distinguished clients including the President Director of Issey Miyake, the owner of Monsoon International, and members of the Royal Family.</p>
+          <p>Her most prestigious engagement saw her creating exquisite canap&eacute;s for one hundred guests at the Issey Miyake new collection launch in London.</p>
+          <p>Emily's unwavering commitment to organically sourced, locally produced ingredients ensures that every dish is not only remarkably flavoursome but distinctly her own. Every event is transformed into an unforgettable culinary experience, complete with beautifully presented dishes and outstanding service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Previous Menus (collapsible) -->
+  <section id="menus" class="menus-elegant">
+    <div class="menus-elegant__header reveal-up">
+      <span class="menus-elegant__ornament">&#10047; &#8212; &#10047; &#8212; &#10047;</span>
+      <span class="menus-elegant__eyebrow">Examples Only</span>
+      <h2 class="menus-elegant__title">Every Menu is Bespoke</h2>
+      <p class="menus-elegant__note">The menus below are purely illustrative, four real examples from past events, shown to give you a feel for Emily's style. Your menu will be crafted from scratch around your occasion, your guests, your dietary needs and the ingredients in season.</p>
+      <p class="menus-elegant__cta-hint">Inspired? <a href="#contact">Email Emily</a> to start designing yours.</p>
+    </div>
+
+    <div class="menus-elegant__container reveal-up">
+      <button class="menus-elegant__toggle" id="menusToggle" aria-expanded="false">
+        <span class="menus-elegant__toggle-label">
+          <span class="menus-elegant__toggle-text">View Example Menus</span>
+          <span class="menus-elegant__toggle-text menus-elegant__toggle-text--alt">Hide Example Menus</span>
+        </span>
+        <span class="menus-elegant__icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </span>
+      </button>
+
+      <div class="menus-elegant__content" id="menusContent">
+        <div class="menus-elegant__banner">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+            <line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+          <span>These are past examples only. Every menu Emily creates is entirely bespoke to your event.</span>
+        </div>
+        <div class="menus-elegant__grid">
+
+          <!-- Menu 1 -->
+          <article class="menu-card-el">
+            <div class="menu-card-el__inner">
+              <span class="menu-card-el__overline">Example &middot; One</span>
+              <h3 class="menu-card-el__title">Reunion<br>Dinner</h3>
+              <span class="menu-card-el__flourish">&#10047;</span>
+
+              <div class="menu-card-el__course">
+                <h4>Canap&eacute;s</h4>
+                <ul>
+                  <li>Crispy Courgette Fritters</li>
+                  <li>Parmesan &amp; Black Olive Shortbreads with Parsley Pesto &amp; Goats Cheese</li>
+                  <li>Filo Baskets with Hoisin Duck</li>
+                  <li>Honey Mustard Sesame Glazed Cocktail Sausages</li>
+                </ul>
+              </div>
+
+              <div class="menu-card-el__course">
+                <h4>Bowl Food</h4>
+                <ul>
+                  <li>Thai Green Chicken Curry or Seasonal Vegetable Curry with Steamed Basmati Rice</li>
+                  <li>Slow Cooked Aromatic Moroccan Lamb Stew or Seasonal Lentil Stew with Couscous &amp; Roasted Flaked Almonds</li>
+                </ul>
+              </div>
+
+              <div class="menu-card-el__course">
+                <h4>Desserts</h4>
+                <ul>
+                  <li>Individual French Chocolate Pots</li>
+                  <li>Tangy Lemon Possets with Blueberries &amp; Lemon Zest</li>
+                </ul>
+              </div>
+
+              <div class="menu-card-el__course">
+                <h4>Cheese Board</h4>
+                <ul>
+                  <li>Selection of Fine Cheeses with Chutneys, Grapes &amp; Cheese Biscuits</li>
+                </ul>
+              </div>
+
+              <span class="menu-card-el__flourish menu-card-el__flourish--bottom">&#10047;</span>
+            </div>
+          </article>
+
+          <!-- Menu 3 -->
+          <article class="menu-card-el">
+            <div class="menu-card-el__inner">
+              <span class="menu-card-el__overline">Example &middot; Two</span>
+              <h3 class="menu-card-el__title">Christmas<br>Dinner</h3>
+              <span class="menu-card-el__flourish">&#10047;</span>
+
+              <div class="menu-card-el__course">
+                <h4>Starter</h4>
+                <ul>
+                  <li>Grilled Halloumi Fries with Polenta, Homemade Smoked Paprika Tortillas &amp; Chilli Jam</li>
+                </ul>
+              </div>
+
+              <div class="menu-card-el__course">
+                <h4>Christmas Roast</h4>
+                <ul>
+                  <li>Free Range Bronze Turkey</li>
+                  <li>Sage, Chestnut &amp; Apricot Stuffing</li>
+                  <li>Aromatic Cranberry, Orange &amp; Cinnamon Sauce</li>
+                  <li>Mini Chipolatas Wrapped in Streaky Bacon</li>
+                  <li>Homemade Bread Sauce</li>
+                  <li>Honey Roasted Carrots with Fresh Thyme</li>
+                  <li>Cauliflower Cheese</li>
+                  <li>Rosemary Roasted Potatoes &amp; Parsnips</li>
+                  <li>Port, Honey &amp; Giblet Gravy</li>
+                </ul>
+              </div>
+
+              <div class="menu-card-el__course">
+                <h4>Dessert</h4>
+                <ul>
+                  <li>Emily's Sticky Toffee Pudding with Salted Caramel Sauce &amp; Fresh Double Cream</li>
+                </ul>
+              </div>
+
+              <span class="menu-card-el__flourish menu-card-el__flourish--bottom">&#10047;</span>
+            </div>
+          </article>
+
+          <!-- Menu 4 -->
+          <article class="menu-card-el">
+            <div class="menu-card-el__inner">
+              <span class="menu-card-el__overline">Example &middot; Three</span>
+              <h3 class="menu-card-el__title">Celebration<br>Dinner</h3>
+              <span class="menu-card-el__flourish">&#10047;</span>
+
+              <div class="menu-card-el__course">
+                <h4>Canap&eacute;s</h4>
+                <ul>
+                  <li>Prosciutto Crostini with Creamy Ricotta &amp; Honey</li>
+                  <li>Crispy Courgette Fritters</li>
+                  <li>Carrot, Ginger &amp; Coconut Gazpacho Shots</li>
+                  <li>Filo Tartlets with Crab, Ginger &amp; Lime</li>
+                </ul>
+              </div>
+
+              <div class="menu-card-el__course">
+                <h4>Starter</h4>
+                <ul>
+                  <li>Caprese Salad with Heirloom Tomatoes, Burrata &amp; Basil Pesto</li>
+                  <li>Or Gravlax Mousse with Fresh Lemon &amp; Dill</li>
+                </ul>
+              </div>
+
+              <div class="menu-card-el__course">
+                <h4>Main</h4>
+                <ul>
+                  <li>Charred Beef Tenderloin with Fresh Salsa Verde</li>
+                  <li>Or Smoked Trout with Lemon, Thyme &amp; Honey</li>
+                  <li>Minted New Potatoes</li>
+                  <li>Mixed Seasonal Green Vegetables</li>
+                  <li>Harissa Roasted Aubergine Salad with Whipped Feta</li>
+                </ul>
+              </div>
+
+              <div class="menu-card-el__course">
+                <h4>Dessert</h4>
+                <ul>
+                  <li>Multi Tiered Tiramisu</li>
+                  <li>Or Tangy Lemon Possets with Strawberries &amp; Lemon Balm</li>
+                  <li>Lavender Shortbread Biscuits</li>
+                </ul>
+              </div>
+
+              <span class="menu-card-el__flourish menu-card-el__flourish--bottom">&#10047;</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Marquee -->
+  <section id="reviews" class="reviews">
+    <div class="reviews__header reveal-up">
+      <span class="section-label section-label--light">Testimonials</span>
+      <h2 class="section-title section-title--light">What Our Clients Say</h2>
+    </div>
+
+    <!-- Row 1 - scrolling left -->
+    <div class="marquee">
+      <div class="marquee__track">
+        <!-- Set 1 -->
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Emily was superb. From first interaction through later discussions and on the evening it exceeded our expectations. For us it was important that the vegetarian food was the hero and with her suggestions that was easily achieved. Emily made our evening, which was a family dinner for a 60th birthday. We can't recommend her more highly. Overall a wonderful experience.&rdquo;</p>
+          <span class="review-card__name">Rob</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Emily was absolutely fantastic from start to finish. She took so much time to listen to the nature of our event and to tailor the menu exactly as we wanted. On the night, she was extremely professional, as well as being warm and caring. She was discreet and left everywhere spotless. The food was absolutely delicious - it completely exceeded my expectations. Wish we could do it all over again.&rdquo;</p>
+          <span class="review-card__name">Charlotte</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Chef Emily was professional and engaging from the start - serving delicious cocktails to welcome our guests and a mouth watering 3 course meal that was made with real care and quality ingredients. It was our first experience of having a Chef in our home and it took the pressure off to allow us all to enjoy spending time with our friends. Emily and her assistant were discreet and so efficient - it was wonderful to have our kitchen left clean and spotless too!&rdquo;</p>
+          <span class="review-card__name">Shelly</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Emily is professional, communicative and delivers wonderful food! She considers the finer details, tailors the experience to individual needs and provides an exceptional service. Highly recommend booking Emily if you want to have a unique dining experience.&rdquo;</p>
+          <span class="review-card__name">Imogen</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Emily &amp; Florence were brilliant, we had a wonderful evening. The food was delicious and they managed getting everything cooked, served and cleaned up seamlessly. It was wonderful for us all to be able to sit and enjoy the evening together.&rdquo;</p>
+          <span class="review-card__name">Emily</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Professional yet informal. Delicious food, reasonably priced and great service. Highly recommend.&rdquo;</p>
+          <span class="review-card__name">Kate</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;We had an absolutely wonderful experience with Emily from start to finish. The booking process and menu selection was seamless, as was food prep and set up. The food itself was delicious and beautifully presented. We couldn't have asked for more.&rdquo;</p>
+          <span class="review-card__name">Lily</span>
+        </div>
+        <!-- Duplicate set for seamless loop -->
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Emily was superb. From first interaction through later discussions and on the evening it exceeded our expectations. For us it was important that the vegetarian food was the hero and with her suggestions that was easily achieved. Emily made our evening, which was a family dinner for a 60th birthday. We can't recommend her more highly. Overall a wonderful experience.&rdquo;</p>
+          <span class="review-card__name">Rob</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Emily was absolutely fantastic from start to finish. She took so much time to listen to the nature of our event and to tailor the menu exactly as we wanted. On the night, she was extremely professional, as well as being warm and caring. She was discreet and left everywhere spotless. The food was absolutely delicious - it completely exceeded my expectations. Wish we could do it all over again.&rdquo;</p>
+          <span class="review-card__name">Charlotte</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Chef Emily was professional and engaging from the start - serving delicious cocktails to welcome our guests and a mouth watering 3 course meal that was made with real care and quality ingredients. It was our first experience of having a Chef in our home and it took the pressure off to allow us all to enjoy spending time with our friends. Emily and her assistant were discreet and so efficient - it was wonderful to have our kitchen left clean and spotless too!&rdquo;</p>
+          <span class="review-card__name">Shelly</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Emily is professional, communicative and delivers wonderful food! She considers the finer details, tailors the experience to individual needs and provides an exceptional service. Highly recommend booking Emily if you want to have a unique dining experience.&rdquo;</p>
+          <span class="review-card__name">Imogen</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Emily &amp; Florence were brilliant, we had a wonderful evening. The food was delicious and they managed getting everything cooked, served and cleaned up seamlessly. It was wonderful for us all to be able to sit and enjoy the evening together.&rdquo;</p>
+          <span class="review-card__name">Emily</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;Professional yet informal. Delicious food, reasonably priced and great service. Highly recommend.&rdquo;</p>
+          <span class="review-card__name">Kate</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">&ldquo;We had an absolutely wonderful experience with Emily from start to finish. The booking process and menu selection was seamless, as was food prep and set up. The food itself was delicious and beautifully presented. We couldn't have asked for more.&rdquo;</p>
+          <span class="review-card__name">Lily</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="contact__container reveal-up">
+      <span class="section-label">Book Emily</span>
+      <h2 class="section-title">Let's Create Something<br>Unforgettable</h2>
+      <p class="contact__text">Whether it's an intimate dinner party, a milestone celebration, or a corporate gathering, Emily will craft a bespoke menu tailored to your occasion. Get in touch to discuss your event.</p>
+
+      <div class="email-picker" id="emailPicker">
+        <button type="button" class="contact__email-card" id="emailPickerTrigger" aria-haspopup="true" aria-expanded="false">
+          <span class="contact__email-label">Email Emily directly</span>
+          <span class="contact__email-address">emilystabb@gmail.com</span>
+          <span class="contact__email-arrow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12,5 19,12 12,19"/>
+            </svg>
+          </span>
+        </button>
+
+        <div class="email-picker__menu" id="emailPickerMenu" role="menu">
+          <p class="email-picker__heading">Open in...</p>
+
+          <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=emilystabb@gmail.com&amp;su=Private%20Chef%20Enquiry" target="_blank" rel="noopener" class="email-picker__option" role="menuitem">
+            <svg width="22" height="22" viewBox="0 0 48 48">
+              <path fill="#4285F4" d="M45 16.2l-5 2.75-5 4.75L35 40h7c1.657 0 3-1.343 3-3V16.2z"/>
+              <path fill="#34A853" d="M3 16.2l3.614 1.71L13 19.7V40H6c-1.657 0-3-1.343-3-3V16.2z"/>
+              <path fill="#EA4335" d="M35 11.2L24 19.45 13 11.2 12 17l1 6.7 11 8.25 11-8.25 1-6.7-1-5.8z"/>
+              <path fill="#FBBC04" d="M3 12.298V16.2l10 7.5V11.2L9.876 8.859C9.132 8.301 8.228 8 7.298 8H7c-2.209 0-4 1.791-4 4v.298z"/>
+              <path fill="#C5221F" d="M45 12.298V16.2l-10 7.5V11.2l3.124-2.341C38.868 8.301 39.772 8 40.702 8H41c2.209 0 4 1.791 4 4v.298z"/>
+            </svg>
+            <span>
+              <strong>Gmail</strong>
+              <em>Open in browser</em>
+            </span>
+          </a>
+
+          <a href="https://outlook.live.com/mail/0/deeplink/compose?to=emilystabb@gmail.com&amp;subject=Private%20Chef%20Enquiry" target="_blank" rel="noopener" class="email-picker__option" role="menuitem">
+            <svg width="22" height="22" viewBox="0 0 48 48">
+              <path fill="#0078D4" d="M28 4H10c-1.1 0-2 .9-2 2v36c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2V16L28 4z"/>
+              <path fill="#50D9FF" d="M28 4v12h12"/>
+              <circle cx="19" cy="28" r="6" fill="#fff"/>
+              <circle cx="19" cy="28" r="3" fill="#0078D4"/>
+            </svg>
+            <span>
+              <strong>Outlook</strong>
+              <em>Open in browser</em>
+            </span>
+          </a>
+
+          <a href="mailto:emilystabb@gmail.com?subject=Private%20Chef%20Enquiry" class="email-picker__option" role="menuitem">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span>
+              <strong>Default mail app</strong>
+              <em>Apple Mail, etc.</em>
+            </span>
+          </a>
+
+          <button type="button" class="email-picker__option email-picker__option--copy" id="emailCopyBtn" role="menuitem">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+              <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+            </svg>
+            <span>
+              <strong class="email-picker__copy-label">Copy email address</strong>
+              <em>emilystabb@gmail.com</em>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="contact__secondary">
+        <a href="https://www.instagram.com/emilysfinedining/" target="_blank" rel="noopener" class="contact__insta-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <circle cx="12" cy="12" r="5"/>
+            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+          </svg>
+          Follow on Instagram
+        </a>
+      </div>
+      <p class="contact__location">Based in the South of England</p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery">
+    <div class="gallery__header reveal-up">
+      <span class="section-label section-label--light">Portfolio</span>
+      <h2 class="section-title section-title--light">A Feast for the Eyes</h2>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item reveal-up"><img src="/images/gallery/salmon-canapes.png" alt="Smoked salmon and caviar canapés on slate" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/asparagus-hollandaise.png" alt="Asparagus with hollandaise and edible flowers" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/panna-cotta-martini.png" alt="Vanilla panna cotta with raspberry coulis in martini glasses" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/beef-tenderloin.png" alt="Charred beef tenderloin with rosemary and toasted almonds" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/table-setting.png" alt="Elegant festive table setting with candles and greenery" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/about/team-kitchen.png" alt="Emily and her team in the kitchen" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/berry-tart.png" alt="Raspberry swirl cheesecake tart" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/mousse-spoons.png" alt="Individual mousse servings in teardrop spoons" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/charcuterie-boards.png" alt="Artisan charcuterie boards with rosemary" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/panna-cotta-vintage.png" alt="Panna cotta on vintage china with pomegranate" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/steak-mushroom.png" alt="Seared steak with polenta and wild mushroom jus" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/pesto-canapes.png" alt="Parsley pesto and goats cheese canapés" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/salmon-watercress.png" alt="Salmon with watercress and horseradish cream" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/pavlova-berries.png" alt="Individual pavlova with fresh summer berries" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/antipasti-spread.png" alt="Mediterranean antipasti spread" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/asparagus-pomegranate.png" alt="Asparagus and pomegranate salad" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/chocolate-berry-plates.png" alt="Chocolate pots with seasonal berries" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/yorkshire-canapes.png" alt="Mini Yorkshire pudding canapés with roast beef" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/canapes-kitchen.png" alt="Canapé preparation in the kitchen" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/halloumi-salad.png" alt="Grilled halloumi with seasonal salad" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/cauliflower-salad.png" alt="Roasted cauliflower with pomegranate and herbs" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/chocolate-custard.png" alt="Chocolate and vanilla custard dessert selection" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/about/emily-team-1.png" alt="Emily and her team at an event" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/about/team-serving.png" alt="Professional service at a private event" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/about/emily-team-2.png" alt="Emily and colleague" loading="lazy"></div>
+      <div class="gallery__item reveal-up"><img src="/images/gallery/chocolate-mousse-vintage.png" alt="Chocolate mousse in vintage china cups with chocolate shavings" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <span class="footer__logo">Emily's Fine Dining</span>
+      <p class="footer__tagline">Private Chef &middot; South of England</p>
+      <a href="mailto:emilystabb@gmail.com?subject=Private%20Chef%20Enquiry" class="footer__email">emilystabb@gmail.com</a>
+      <a href="https://www.instagram.com/emilysfinedining/" target="_blank" rel="noopener" class="footer__instagram" aria-label="Instagram">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="5"/>
+          <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" aria-label="Close">&times;</button>
+    <button class="lightbox__prev" aria-label="Previous">&lsaquo;</button>
+    <button class="lightbox__next" aria-label="Next">&rsaquo;</button>
+    <img class="lightbox__img" src="data:," alt="" aria-hidden="true">
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
