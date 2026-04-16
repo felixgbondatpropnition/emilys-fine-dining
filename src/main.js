@@ -18,6 +18,24 @@ document.addEventListener('DOMContentLoaded', () => {
   }, 100)
 })
 
+// Recalculate ScrollTrigger positions once images have loaded.
+// Prevents content stuck invisible on mobile when image loads shift page height.
+window.addEventListener('load', () => {
+  ScrollTrigger.refresh()
+})
+
+// Ultimate safety net: force-reveal anything still hidden after 3 seconds.
+// ScrollTrigger miscalculations or blocked JS should never leave content invisible.
+setTimeout(() => {
+  document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right, .gallery__item').forEach((el) => {
+    const style = getComputedStyle(el)
+    if (parseFloat(style.opacity) < 0.1) {
+      el.style.opacity = '1'
+      el.style.transform = 'none'
+    }
+  })
+}, 3000)
+
 // --- Email Picker (Gmail / Outlook / default / copy) ---
 function initEmailPicker() {
   const picker = document.getElementById('emailPicker')
@@ -252,7 +270,7 @@ function initScrollAnimations() {
     gsap.to(el, {
       scrollTrigger: {
         trigger: el,
-        start: 'top 88%',
+        start: 'top 95%',
         toggleActions: 'play none none none',
       },
       y: 0,
@@ -267,7 +285,7 @@ function initScrollAnimations() {
     gsap.to(el, {
       scrollTrigger: {
         trigger: el,
-        start: 'top 85%',
+        start: 'top 95%',
         toggleActions: 'play none none none',
       },
       x: 0,
@@ -282,7 +300,7 @@ function initScrollAnimations() {
     gsap.to(el, {
       scrollTrigger: {
         trigger: el,
-        start: 'top 85%',
+        start: 'top 95%',
         toggleActions: 'play none none none',
       },
       x: 0,
@@ -298,7 +316,7 @@ function initScrollAnimations() {
     gsap.to(item, {
       scrollTrigger: {
         trigger: item,
-        start: 'top 90%',
+        start: 'top 98%',
         toggleActions: 'play none none none',
       },
       y: 0,
