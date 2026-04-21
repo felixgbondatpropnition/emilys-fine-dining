@@ -92,9 +92,9 @@ function initReviewsMarquee() {
   const track = document.querySelector('.marquee__track')
   if (!marquee || !track) return
 
-  // Duplicate track children once more to ensure seamless loop works at any width
-  const originals = Array.from(track.children)
-  const halfCount = originals.length / 2
+  // On mobile the reviews render as a vertical stack (see style.css @media max-width:768px).
+  // Skip all horizontal-scroll / pointer logic so we don't spin rAF or hijack touch.
+  if (window.matchMedia('(max-width: 768px)').matches) return
 
   const speed = 0.5 // pixels per frame (~30px/sec at 60fps)
   let rafId = null

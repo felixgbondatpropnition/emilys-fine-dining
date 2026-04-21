@@ -1622,7 +1622,7 @@ a {
     margin-bottom: 0.5rem;
   }
 
-  /* Reviews */
+  /* Reviews — stack vertically on mobile (marquee has too many failure modes on phones) */
   .reviews {
     padding: 5rem 0 4rem;
   }
@@ -1631,14 +1631,31 @@ a {
     padding: 0 1.5rem;
   }
 
-  .review-card {
-    flex: 0 0 300px;
-    padding: 1.5rem 1.5rem;
+  .marquee {
+    overflow: visible;
+    cursor: auto;
+    padding: 0 1.25rem;
+    touch-action: auto;
   }
 
   .marquee__track {
+    flex-direction: column;
+    width: auto;
     gap: 1rem;
-    padding: 0 1rem;
+    padding: 0;
+  }
+
+  .review-card {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 1.5rem 1.5rem;
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(196, 162, 101, 0.25);
+  }
+
+  /* Hide duplicate set (only needed for the desktop infinite-loop marquee) */
+  .review-card:nth-child(n+8) {
+    display: none;
   }
 
   /* Contact — email card stacks on phone */
@@ -1729,7 +1746,7 @@ a {
   }
 
   .review-card {
-    flex: 0 0 260px;
+    width: 100%;
     padding: 1.25rem 1.25rem;
   }
 
